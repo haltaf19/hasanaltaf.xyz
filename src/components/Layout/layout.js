@@ -1,8 +1,10 @@
 import React from "react";
 import Navbar from "../NavBar";
 import Home from "../Home"
+import Container from "../Container"
 import styles from "./layout.module.css";
 import Headroom from "react-headroom";
+import Footer from "../Footer"
 
 export default props => (
   <div className={styles.layout}>
@@ -10,9 +12,8 @@ export default props => (
     <Navbar type={(props.home ? 'transparent' : 'solid')} />
     </Headroom>
     {props.home ? <Home /> : null}
-    <div className={styles.container}>
-        {props.children}
-    </div>
-    <div className={styles.container}>{props.children}</div>
+    <Container>{props.children}</Container>
+    <Footer />
   </div>
 );
+
