@@ -1,0 +1,15 @@
+.container {
+    color: #505050;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+  }
+  
+  .mainContainer {
+    padding-top: 120px;
+  }
+  
+  .container:empty,
+  .mainContainer:empty {
+    display: none;
+  }

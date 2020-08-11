@@ -1,0 +1,64 @@
+.home {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+    width: 100%;
+
+  }
+  
+  .title {
+    padding-top: 15vh;
+    text-align: center;
+    display: table-cell;
+    vertical-align: top;
+    color:black;
+  }
+  
+  .title h1 {
+    font-size: 50px;
+    font-weight: 100;
+  }
+
+
+  .arrow_part{
+    padding-top: 1rem;
+    margin: auto;
+  }
+
+  .arrow_part span {
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    margin: auto;
+    position: relative;
+    animation: animate 1.5s infinite;
+  }
+  
+  .arrow_part span:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  
+  .arrow_part span:nth-child(3) {
+    animation-delay: -0.6s;
+  }
+  
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+    }
+  }
