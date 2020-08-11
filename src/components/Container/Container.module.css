@@ -3,7 +3,15 @@
     margin: 0 auto;
     max-width: 900px;
     padding: 20px;
+    color: #505050;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */ 
   }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
   
   .mainContainer {
     padding-top: 120px;

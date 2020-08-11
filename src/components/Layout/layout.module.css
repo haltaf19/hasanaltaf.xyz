@@ -1,18 +1,3 @@
-.layout {
-    color: #505050;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */ 
-  }
-
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
-}
-  
-  .container {
-    margin: 0 auto;
-    max-width: 800px;
-  }
 
   .FlexBox{
     color: white;
