@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import styles from "./Home.module.css"
 import Typist from 'react-typist'
+import Bio from "../Bio"
 
 
 
@@ -25,6 +26,7 @@ function Home(){
 
 
   return(
+    <>
       <div className={styles.home}>
         <div className={styles.title}>
           <h1>Hello! I'm</h1>
@@ -40,8 +42,9 @@ function Home(){
               <span></span>
             </div>
       </div>
-   
       </div>
+      <Bio />
+      </>
 
   )
 }

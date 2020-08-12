@@ -1,0 +1,55 @@
+.title{
+    text-emphasis: bold;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.mainContent {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    max-width: 60%;
+    margin-left:20%;
+
+  }
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+.bioSection{
+    color:black;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    font-size: 20px;
+    padding:1rem;
+}
+
+.button {
+  background-color: transparent;
+  color:  rgb(41, 101, 150);
+  border-radius: 100%;
+  height: 4rem;
+  width: 4rem;
+  border: 2px solid;
+
+  
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button:hover{
+  background: rgb(41, 101, 150);
+  border: 2px solid  rgb(41, 101, 150);
+}
