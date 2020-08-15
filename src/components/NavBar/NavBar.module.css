@@ -37,6 +37,8 @@
     height: 80px;
     position: absolute;
     width: 100%;
+    top: 0;
+
   }
 
   .navbar a {

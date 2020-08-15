@@ -7,7 +7,7 @@ description: "A Sorting Visualizer implemented using C# and Windows Forms Applic
 skills: ["C#", "Windows Forms"]
 github: "https://github.com/haltaf19/Sorting-Visualizer"
 
-frontpage: true
+frontpage: false
 
 ---
 

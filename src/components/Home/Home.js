@@ -11,8 +11,8 @@ import Logo from "../../images/logo.png"
 function Home(){
 
   const data = useStaticQuery(graphql`
-  query projectQuery {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+  query frontPageProjectsQuery {
+    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {frontpage: {eq: true}}}) {
       nodes {
         frontmatter {
           description
@@ -36,7 +36,6 @@ function Home(){
       }
     }
   }
-  
   
   `
   )
@@ -81,7 +80,7 @@ function Home(){
       </div>
       </div>
       <Bio />
-      <Projects projects={projects} />
+      <Projects projects={projects} homePage={true} />
       
       </>
 
