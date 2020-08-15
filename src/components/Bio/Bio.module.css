@@ -12,21 +12,24 @@
     text-align: center;
     max-width: 60%;
     margin-left:20%;
-
   }
 
 .wrapper{
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;  
 }
 
 
 .bioSection{
     color:black;
-    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
     font-size: 20px;
+    max-width: 80%;
     padding:1rem;
+    -webkit-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
+    box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
+    background-color: blanchedalmond;
 }
 
 .button {
@@ -50,6 +53,6 @@
 }
 
 .button:hover{
-  background: rgb(41, 101, 150);
-  border: 2px solid  rgb(41, 101, 150);
+  background: rgb(243, 245, 247);
+  border: 2px solid  rgb(174, 190, 202);
 }

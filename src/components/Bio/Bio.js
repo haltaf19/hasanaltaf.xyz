@@ -1,7 +1,7 @@
   
 import React from "react"
 import { Link } from "gatsby"
-import resume from "../../Static/HasanAltafResume.pdf"
+import resume from "../../../content/resume/HasanAltafResume.pdf"
 import { GrLinkedin, GrGithub} from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
 import styles from "./Bio.module.css"
@@ -12,7 +12,7 @@ import Container from "../Container"
 
 function Bio(props){
 
-const resumeLink = <a href={resume}>here</a>
+const resumeLink = <a href={resume} target="_blank">here</a>
 
 return (
   <>
@@ -23,7 +23,7 @@ return (
     }}
     className={styles.bioSection}
     >
-        <h2 className={styles.title}>Nice to Meet You!</h2>
+     <h2 className={styles.title}>Nice to Meet You!</h2>
       <p className={styles.mainContent}>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
       standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 

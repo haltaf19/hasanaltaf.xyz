@@ -1,12 +1,48 @@
 import React, {useState} from "react"
+import {Link, useStaticQuery, graphql } from "gatsby"
 import styles from "./Home.module.css"
 import Typist from 'react-typist'
 import Bio from "../Bio"
+import Projects from "../Projects"
+import Logo from "../../images/logo.png"
 
 
 
 function Home(){
 
+  const data = useStaticQuery(graphql`
+  query projectQuery {
+    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+      nodes {
+        frontmatter {
+          description
+          frontpage
+          github
+          link
+          project
+          skills
+          title
+          date(formatString: "MMMM YYYY")
+          showCase {
+            publicURL
+            childImageSharp {
+              fluid(quality: 100) {
+                ...GatsbyImageSharpFluid
+                base64
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
+  `
+  )
+
+  const projects =  data.allMarkdownRemark.nodes;
+  
   const [typistIndex, setTypistIndex] = useState(0)
   const typistStrings = [
     "Hasan Altaf",
@@ -23,6 +59,7 @@ function Home(){
       setTypistIndex(typistIndex + 1)
     }
   }
+
 
 
   return(
@@ -44,11 +81,11 @@ function Home(){
       </div>
       </div>
       <Bio />
+      <Projects projects={projects} />
+      
       </>
 
   )
 }
  
-
-
 export default Home
