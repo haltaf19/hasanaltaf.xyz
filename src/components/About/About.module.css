@@ -1,0 +1,34 @@
+.mainContent{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    max-width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding:1rem;
+    -webkit-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
+    box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
+    background-color: blanchedalmond;
+}
+
+.headshot{
+    padding-top:6rem;
+    width: 80vh;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .headshot{
+        max-width: 70%;
+    }
+}
+

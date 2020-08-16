@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 
 export default () => (
-  <Layout about>
+  <Layout education>
     <h1>Even More COntent</h1>
     <p>
       Content

@@ -40,8 +40,10 @@ function AllProjects(){
     const projects =  data.allMarkdownRemark.nodes;
     return(
         <>
+        <div className={styles.content}>
           <h2 className={styles.title}>All Projects</h2>
         <Projects projects={projects} homePage={false} />
+        </div>
         </>
 
     )

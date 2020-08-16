@@ -96,22 +96,21 @@
 }
 
 .projectSkills{
-    line-height: 2,4;
+    line-height: 2,4; 
     word-wrap: break-word;
-    
 }
+
 
 .skill{
     display: inline-block;
     line-height: 1.2;
     padding:0.3rem;
-    border-radius: 4px;
-    border: 2px solid rgb(41, 101, 150);
     margin-right: 1rem;
     margin-top: 0.5rem;
     font-size: .85rem;
     font-weight: 400;
-    color: rgb(41, 101, 150);
+    color:rgb(41, 101, 150);
+    background-color: rgb(230, 230, 230);
     border: 0.15em solid rgb(41, 101, 150);
     border-radius: 0.5em;
     text-transform: uppercase;
@@ -124,9 +123,10 @@
     transition: 0.5s;
 }
 
-.skill::hover{
-    color:black;
-    transition: 0.5s;
+.skill:hover{
+    opacity: 1;
+    background-color:lightblue;
+
 }
 
 @media screen and (max-width: 1068px){
@@ -137,7 +137,7 @@
 
 }
 
-@media screen and (max-width: 868px){
+@media screen and (max-width: 1024px){
     .projectPost{
         padding: 2.5rem;
         max-width: 90%;

@@ -19,7 +19,7 @@ function ProjectComponent(props){
         <>
         <div class= {styles.projectPost}>
           <div class={styles.projectPostImage}>
-            <img src = {showCase.publicURL} />
+            {showCase? <img src = {showCase.publicURL} /> : null}
           </div>
           <div className={styles.projectInfo}>
             <div className={styles.projectName}>

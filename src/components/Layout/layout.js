@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../NavBar";
 import Home from "../Home"
+import About from "../About"
 import {Container, MainContainer} from "../Container"
 import styles from "./layout.module.css";
 import Headroom from "react-headroom";
 import AllProjects from "../AllProjects";
 
 export default function Layout(props){
-
 
   return (
     <div className={styles.layout}>
@@ -16,6 +16,7 @@ export default function Layout(props){
     </Headroom>
     {props.home ? <Home /> : null}
     {props.projects ? <AllProjects /> : null}
+    {props.about ? <About /> : null}
     {props.home ? <Container>{props.children}</Container> : <MainContainer>{props.children}</MainContainer>}
 
   </div>
