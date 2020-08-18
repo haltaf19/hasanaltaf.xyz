@@ -9,7 +9,6 @@ import { Link } from "gatsby"
 export default function Projects(props){
 
     const data = props.projects;
-    console.log(data);
 
     return(
         <>

@@ -46,7 +46,6 @@ function ExperienceComponent(props){
       
 
       function getImage(company){
-        console.log(company)
         switch(company) {
           case "BC Hydro":
             return (<Img fluid={data.bchydro.childImageSharp.fluid} fadeIn alt="bc hydro logo" />)

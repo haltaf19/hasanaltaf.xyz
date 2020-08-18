@@ -30,6 +30,13 @@
     padding: 20px;
   }
 
+  .mobileBrand{
+    float:left;
+    margin-top:0.8rem;
+    font-weight:600;
+    font-size:2rem;
+  }
+
   .navbar {
     text-align: center;
     background-color: rgb(126, 152, 182);

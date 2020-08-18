@@ -14,7 +14,7 @@ const ListLink = props => (
 
 const Links = props => (
   <ul>
-    <ListLink to="/"><h1 className="logo">HASAN ALTAF</h1></ListLink>
+    {props.isFull ? <ListLink to="/"><h1 className="logo">HASAN ALTAF</h1></ListLink> : null}
     <ListLink to="/about">About</ListLink>
     <ListLink to="/experience">Experience</ListLink>
     <ListLink to="/projects">All Projects</ListLink>
@@ -33,6 +33,7 @@ function MinimalBar(props){
       <div
         className={props.className}
       >
+        <span className={styles.mobileBrand}><Link to="/">HASAN ALTAF</Link></span>
         <button
           className={styles.menuButton}
           onClick={props.onClick}
@@ -46,8 +47,8 @@ function MinimalBar(props){
 
   function FullBar(props){
     return (
-      <div className={[styles.navbar, styles.navbarDesktop].join(" ")}> 
-        <Links />
+      <div className={[styles.navbar, styles.navbarDesktop].join(" ")}>
+        <Links isFull={true} />
       </div>
     )
   }
@@ -61,7 +62,7 @@ function MinimalBar(props){
         <button className={styles.closeButton} onClick={props.onClick}>
             <span>Close</span>
         </button>
-        <Links />
+        <Links isFull={false} />
       </div>
       )
     }
