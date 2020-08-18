@@ -2,8 +2,6 @@ import React from "react"
 import styles from "./Experience.module.css"
 import {graphql, useStaticQuery} from "gatsby"
 import Img from "gatsby-image"
-import Experience from "."
-
 
 
 function ExperienceComponent(props){
