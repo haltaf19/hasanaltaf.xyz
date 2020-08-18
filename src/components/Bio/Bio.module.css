@@ -57,3 +57,11 @@
   background: rgb(243, 245, 247);
   border: 2px solid  rgb(174, 190, 202);
 }
+
+
+@media screen and (max-width: 1024px){
+  .bioSection{
+      max-width: 90%;
+  }
+
+}
