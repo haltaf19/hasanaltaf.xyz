@@ -6,8 +6,7 @@ import Experience from "../Experience"
 import Education from "../Education"
 import AllProjects from "../AllProjects";
 // import Footer from "../Footer"
-import {Container, MainContainer} from "../Container"
-import styles from "./layout.module.css";
+import styles from "./Layout.module.css";
 import Headroom from "react-headroom";
 
 

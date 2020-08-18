@@ -20,7 +20,6 @@ function About(){
         `
 )
 
-    console.log(data)
 
 return(
     <>
