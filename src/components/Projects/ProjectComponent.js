@@ -18,7 +18,7 @@ function ProjectComponent(props){
         <>
         <div className= {styles.projectPost}>
           <div className={styles.projectPostImage}>
-            {showCase? <img src = {showCase.publicURL} alt="showcase image" /> : null}
+            {showCase? <img src = {showCase.publicURL} alt="showcase" /> : null}
           </div>
           <div className={styles.projectInfo}>
             <div className={styles.projectName}>

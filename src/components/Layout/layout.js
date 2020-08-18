@@ -5,7 +5,7 @@ import About from "../About"
 import Experience from "../Experience"
 import Education from "../Education"
 import AllProjects from "../AllProjects";
-import Foot from "../Footer"
+// import Footer from "../Footer"
 import {Container, MainContainer} from "../Container"
 import styles from "./layout.module.css";
 import Headroom from "react-headroom";
@@ -14,6 +14,7 @@ import Headroom from "react-headroom";
 function Layout(props){
 
   return (
+    <>
     <div className={styles.layout}>
     <Headroom>
     <Navbar/>
@@ -23,8 +24,10 @@ function Layout(props){
     {props.about ? <About /> : null}
     {props.experience? <Experience /> : null}
     {props.education ? <Education /> : null}
-   
-  </div>
+    </div>
+
+    {/* <Footer /> */}
+    </>
   )
 }
 
