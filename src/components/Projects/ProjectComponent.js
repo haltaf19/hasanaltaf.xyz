@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./Projects.module.css"
-import { GoMarkGithub, GoLinkExternal, GoBook, GoLink } from "react-icons/go"
+import { GoMarkGithub, GoLinkExternal} from "react-icons/go"
 
 
 
@@ -12,14 +12,13 @@ function ProjectComponent(props){
         link,
         github,
         date,
-        showCase,
-        frontpage
+        showCase
       } = props.projects
       return(
         <>
-        <div class= {styles.projectPost}>
-          <div class={styles.projectPostImage}>
-            {showCase? <img src = {showCase.publicURL} /> : null}
+        <div className= {styles.projectPost}>
+          <div className={styles.projectPostImage}>
+            {showCase? <img src = {showCase.publicURL} alt="showcase image" /> : null}
           </div>
           <div className={styles.projectInfo}>
             <div className={styles.projectName}>
@@ -29,8 +28,8 @@ function ProjectComponent(props){
             <p className={styles.projectText}>
               {description}
             </p>
-            <a href={github} className={styles.projectLinks} target = "_blank">Github <GoMarkGithub /></a>
-            {link ? <a href={link} className={styles.projectLinks} target = "_blank">Visit Project <GoLinkExternal /></a> : null}
+            <a href={github} className={styles.projectLinks} target = "_blank" rel="noreferrer">Github <GoMarkGithub /></a>
+            {link ? <a href={link} className={styles.projectLinks} target = "_blank" rel="noreferrer">Visit Project <GoLinkExternal /></a> : null}
             <div className={styles.projectSkills}>
               {skills.map((skill, i) => (
                 <span key={i} className={styles.skill}>

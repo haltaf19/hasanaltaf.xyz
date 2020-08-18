@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import styles from "./navbar.module.css";
 import { Link } from "gatsby";
-import { lightColor } from "../../styles/defaultColor"
 import resume from "../../../content/resume/HasanAltafResume.pdf"
 
 
@@ -20,7 +19,7 @@ const Links = props => (
     <ListLink to="/experience">Experience</ListLink>
     <ListLink to="/projects">All Projects</ListLink>
     <ListLink to="/education">Education</ListLink>
-    <li><a href={resume} target="_blank">Resume</a></li>
+    <li><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
   </ul>
 )
 

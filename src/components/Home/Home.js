@@ -1,10 +1,9 @@
 import React, {useState} from "react"
-import {Link, useStaticQuery, graphql } from "gatsby"
+import {useStaticQuery, graphql } from "gatsby"
 import styles from "./Home.module.css"
 import Typist from 'react-typist'
 import Bio from "../Bio"
 import Projects from "../Projects"
-import Logo from "../../images/logo.png"
 
 
 

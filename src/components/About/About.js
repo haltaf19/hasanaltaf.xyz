@@ -2,7 +2,6 @@ import React from 'react'
 import { useStaticQuery, graphql} from 'gatsby'
 import Img from "gatsby-image"
 import styles from "./About.module.css"
-import headshot from "../../images/hasan.png"
 
 
 
@@ -30,12 +29,18 @@ return(
    <Img fluid={data.headshot.childImageSharp.fluid} fadeIn alt="headshot" />
    </div>
     <div className={styles.mainContent}>
+    <p>
+        Hey There! My name is Hasan and I am a sophomore student at the University of British Columbia studying Computer Science and 
+        Business. My current interests are application development, entrepreneurship, and financial technology, specifically algorithmic
+        trading. I am someone that loves learning new concepts and tackling interesting challenges.
+    </p>
       <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
-      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-      essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-       and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      I first fell in love with technology when I realized it was the greatest equalizer. It gives a platform to those who need one,
+       a voice to those who don’t have one and opportunities to those without access to them. As a result, I strive to create impact 
+       in every activity and project I pursue.
+      </p>
+
+      <p>
       </p>
     </div>
     </>

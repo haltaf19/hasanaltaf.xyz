@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-XXXXXXXXX-X",
+        trackingId: "UA-175672961-1",
       },
     },
     {
@@ -29,20 +29,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `education`,
-        path: `${__dirname}/content/education`,
-      },
-    },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/content/posts`,
-    //     name: `posts`,
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

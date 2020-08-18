@@ -1,0 +1,101 @@
+{
+    "experience": {
+        "list": [
+            {
+                "title": "Teaching Assistant",
+                "company": "Microsoft Teals",
+                "companyUrl": "https://www.microsoft.com/en-us/teals",
+                "location": "Vancouver, CA",
+                "startDate": "May 2020",
+                "endDate": "Present",
+                "description": [
+                    "Teaching Assistant for the Intro to Computer Science Course for High-School sutdents",
+                    "Communicating various programming concepts to underserved students in the Burnaby Youth Hub Community Center"
+                ],
+                "technologies": ["Python", "Communication", "Teaching"]
+            },
+            {
+                "title": "Technological Director",
+                "company": "WestPeak Research Association",
+                "companyUrl": "https://www.westpeakresearch.com/",
+                "location": "Vancouver, BC",
+                "startDate": "Jan 2020",
+                "endDate": "Present",
+                "description": [
+                    "Developing a static website with react based framework Gatsby, increasing loading speed by over 200%",
+                    "Using Excel to perform Discounted Cashflow Analysis and Comparable Company Analysis",
+                    "Publications: Equity Research Report – Sturm, Ruger & Co (NYSE: RGR)"
+                ],
+                "technologies": [
+                    "JavaScript",
+                    "React.js",
+                    "Gatsby",
+                    "Communication",
+                    "Leadership"
+                ]
+            },
+            {
+                "title": "Procurement Analyst Intern",
+                "company": "BC Hydro",
+                "companyUrl": "https://www.bchydro.com/index.html",
+                "location": "Burnaby, BC",
+                "startDate": "Jun 2019",
+                "endDate": "Aug 2019",
+                "description": [
+                    "Worked in the Generation Infastructure Projects Team",
+                    "Analyzed financial feasibility using Python and Excel to provide cost-reduction strategies, saving over $500,000",
+                    "Led the revamp of the Indigenous Selective Procurement Strategy for BC Hydro Project Procurement",
+                    "Prepared RFP documents and contracting plans for projects up to $15,000,000",
+                    "Integrated engineering specifications into business documents"
+                ],
+                "technologies": [
+                    "Python",
+                    "Excel",
+                    "Professionalism",
+                    "Leadership",
+                    "Communication",
+                    "Strategy"
+                ]
+            }
+        ]
+    },
+    "education":{
+        "institution": "The University of British Columbia (UBC)",
+        "location": "Vancouver, BC",
+        "degree": "UBC Business and Computer Science (Co-op)",
+        "grade": 90,
+        "startDate": "Fall 2019",
+        "endDate": "Spring 2023",
+        "allcourses": [
+            "COMM 101",
+            "COMM 292",
+            "COMM 290",
+            "MATH 105",
+            "CPSC 110",
+            "CPSC 221",
+            "CPSC 210",
+            "CPSC 121",
+            "COMM 291",
+            "ECON 102",
+            "COMM 293",
+            "COMM 294",
+            "COMM 295"
+        ],
+        "businessCourses":[
+            "Quantitative Decision Making",
+            "Financial and Managerial Accounting",
+            "Statistics in Business",
+            "Management and Organization Behaviour"
+        ],
+        "computerCourses":[
+            "Software Construction",
+            "Algorithms and Data Structures",
+            "Models of Computation"
+        ],
+        "mathCourses":[
+            "Integral Calculus",
+            "Differential Calculus"
+        ]
+    }
+}
+    

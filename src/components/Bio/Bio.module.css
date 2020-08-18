@@ -6,13 +6,12 @@
 
 }
 
-
 .mainContent {
-    padding-top: 1rem;
+    padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
-    max-width: 60%;
     margin-left:20%;
+    margin: 0 auto;
   }
 
 .wrapper{
@@ -25,9 +24,9 @@
 .bioSection{
     color:black;
     font-size: 20px;
-    max-width: 80%;
-    margin-top: 1rem;
-    padding:1rem;
+    max-width: 60%;
+    margin: 0 auto;
+    padding:0.5rem;
     -webkit-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
     box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);

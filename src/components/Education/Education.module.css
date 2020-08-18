@@ -1,0 +1,66 @@
+.container{
+    padding-top: 5rem;
+    max-width: 60%;
+    padding-bottom:5rem;
+    margin: 0 auto;
+}
+
+.content{
+    background-color: #fffff0;
+    padding-top: 2rem;
+    padding-left:1rem;
+    margin: 0 auto;
+    color:black;
+}
+
+.degree{
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size:2rem;
+}
+
+.information{
+    display: flex;  
+    font-weight: 600;
+}
+
+.information span{
+    margin: 0 auto;
+    padding:0.5rem;
+}
+
+.innerTitle{
+    padding-top:1rem;
+    font-size:1.5rem;
+    text-decoration: underline;
+}
+
+.courseList{
+    display:flex;
+}
+
+.titleList{
+    font-weight:600;
+    font-size:1.2rem;
+}
+
+.courseList li{
+    margin: 8px 5px;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        padding-top: 6rem;
+        max-width: 90%;
+    }
+    .information{
+        display: flex;  
+        font-weight: 500;
+        flex-direction: column;
+    }
+    .degree{
+        font-size:1.3rem;
+    }
+    
+}
