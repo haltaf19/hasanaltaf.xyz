@@ -30,5 +30,10 @@
     .headshot{
         max-width: 70%;
     }
+
+    .mainContent{
+        max-width: 90%;
+
+    }
 }
 

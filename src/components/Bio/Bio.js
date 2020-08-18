@@ -24,7 +24,7 @@ return (
      <h2 className={styles.title}>Nice to Meet You!</h2>
       <p className={styles.mainContent}>
       Hello! My name is Hasan and I am a sophomore at UBC studying Computer Science and Business. I am a passionate software developer 
-      with a diverse portfolio of projects with a variety of technical stacks. I also have extensive leadership experience through my professional
+      with a diverse portfolio of projects containing a variety of technical stacks. I also have extensive leadership experience through my professional
       and extracurricular endeavours. When I'm not coding, you can find me hitting the gym, playing soccer or volunteering in my community!
       Feel free to look around my website and view my resume {resumeLink}.
       </p>
