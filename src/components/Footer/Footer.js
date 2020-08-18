@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./Footer.module.css";
 import { GrLinkedin, GrGithub} from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
-import {Flex, Box, Container} from "react-bootstrap"
+import {Flex, Box, Container} from "rebass"
 
 function Footer(){
 

@@ -23,9 +23,9 @@
 
 .projectPost{
     max-width: 90%;
-    -webkit-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
-    -moz-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
-    box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -1px 1px 3px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: -1px 1px 3px 3px rgba(0,0,0,0.6);
+    box-shadow: -1px 1px 3px 3px rgba(0,0,0,0.6);
     width:100%;
     padding: 1rem;
     display: flex;
@@ -133,8 +133,6 @@
     .projectPost{
         max-width: 80rem;
     }
-
-
 }
 
 @media screen and (max-width: 1024px){
