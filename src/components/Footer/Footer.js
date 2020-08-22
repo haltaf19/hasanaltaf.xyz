@@ -2,7 +2,8 @@ import React from "react"
 import styles from "./Footer.module.css";
 import { GrLinkedin, GrGithub} from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
-import { Flex, Box, Container } from "rebass"
+import { Flex, Box } from "rebass"
+import {Container} from "../Container"
 
 function Footer(){
 
@@ -11,17 +12,17 @@ function Footer(){
     <Container>
       <Flex className={styles.FlexBox}>
         <Box mb={10} width={[1 / 2, 1 / 4, 1 / 5, 1 / 4]}>
-        <a className={styles.button} href="https://www.linkedin.com/in/hasanaltaf/" target="_blank">
+        <a className={styles.button} href="https://www.linkedin.com/in/hasanaltaf/" target="_blank" rel="noreferrer">
             <GrLinkedin />
           </a>
         </Box>
         <Box mb={10} width={[1 / 2, 1 / 4, 1 / 5, 1 / 4]}>
-        <a className={styles.button} href="mailto:hasanaltaf2001@gmail.com" target="_blank">
+        <a className={styles.button} href="mailto:hasanaltaf2001@gmail.com" target="_blank" rel="noreferrer">
           <MdEmail />
           </a>
         </Box>
         <Box mb={10} width={[1 / 2, 1 / 4, 1 / 5, 1 / 4]}>
-        <a className={styles.button} href="https://github.com/haltaf19" target="_blank">
+        <a className={styles.button} href="https://github.com/haltaf19" target="_blank" rel="noreferrer">
           <GrGithub />
           </a>
         </Box>

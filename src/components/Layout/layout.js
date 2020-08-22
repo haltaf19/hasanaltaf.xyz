@@ -5,7 +5,7 @@ import About from "../About"
 import Experience from "../Experience"
 import Education from "../Education"
 import AllProjects from "../AllProjects";
-//import Footer from "../Footer"
+import Footer from "../Footer"
 import styles from "./Layout.module.css";
 import Headroom from "react-headroom";
 import { Helmet } from "react-helmet"
@@ -32,9 +32,11 @@ function Layout(props){
     {props.about ? <About /> : null}
     {props.experience? <Experience /> : null}
     {props.education ? <Education /> : null}
+ 
     </div>
 
     {/* <Footer /> */}
+    <Footer />
     </>
   )
 }
