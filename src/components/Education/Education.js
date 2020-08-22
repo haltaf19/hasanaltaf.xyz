@@ -27,6 +27,7 @@ function Education(){
                 <div className = {styles.information}>
                     <span>{calcGPA(education.grade)} / 4.0 ({education.grade}% average)</span>
                     <span>Expected Completion: {education.endDate}</span>
+                    
                 </div>
                     <h5 className={styles.innerTitle}>Key Courses</h5>
                     <div className={styles.courseList}>
