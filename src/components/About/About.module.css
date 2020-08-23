@@ -12,7 +12,10 @@
     -webkit-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
     box-shadow: -1px 1px 4px 5px rgba(0,0,0,0.6);
-    background-color: blanchedalmond;
+    background-color:#2c3c54;
+    color:#ccd7f6;
+
+    
 }
 
 .headshot{

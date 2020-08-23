@@ -14,7 +14,7 @@ const ListLink = props => (
 
 const Links = props => (
   <ul>
-    {props.isFull ? <ListLink to="/"><h1 className="logo">HASAN ALTAF</h1></ListLink> : null}
+    {props.isFull ? <ListLink to="/"><h1 className={styles.logo}>HASAN ALTAF</h1></ListLink> : null}
     <ListLink to="/about">About</ListLink>
     <ListLink to="/experience">Experience</ListLink>
     <ListLink to="/projects">All Projects</ListLink>
@@ -35,7 +35,7 @@ function MinimalBar(props){
       >
         <span className={styles.mobileBrand}><Link to="/">HASAN ALTAF</Link></span>
         <button
-          className={styles.menuButton}
+          className={styles.closeButton}
           onClick={props.onClick}
         >
           <span style={{ color: props.textColor }}>Menu</span>

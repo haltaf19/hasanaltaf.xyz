@@ -30,7 +30,7 @@ function ExperienceComponent(props){
                 }
             }
         }
-        bchydro: file(absolutePath: {regex: "/bchydro.png/"}) {
+        bchydro: file(absolutePath: {regex: "/bchydro.jpg/"}) {
           childImageSharp {
               fluid(maxWidth: 2000) {
                   ...GatsbyImageSharpFluid

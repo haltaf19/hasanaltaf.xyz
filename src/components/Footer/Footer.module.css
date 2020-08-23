@@ -7,12 +7,11 @@
 }
 
 .content{
-    color: black;
-
+  color: #3c9074;
 }
 
 .indexFooter{
-  background-color: rgb(115, 137, 161);
+  background-color: #0a1930;
   background-position: center;
     background-repeat: repeat;
     position: absolute;

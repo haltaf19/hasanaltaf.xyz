@@ -10,12 +10,21 @@
     text-align: center;
     display: table-cell;
     vertical-align: top;
-    color:black;
+    color:	#ccd7f6;
+  }
+
+  .typist{
+    line-height: 60px;
   }
   
   .title h1 {
     font-size: 50px;
     font-weight: 100;
+  }
+
+  
+  .headTitle{
+    color: #3c9074;
   }
 
 
@@ -28,8 +37,8 @@
     display: block;
     width: 1em;
     height: 1em;
-    border-bottom: 4px solid black;
-    border-right: 4px solid black;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
     margin: auto;
     position: relative;
     animation: animate 1.5s infinite;

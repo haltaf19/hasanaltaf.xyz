@@ -1,5 +1,5 @@
 import Typography from 'typography'
-import nordTheme from 'typography-theme-nord'
+import cloudGardenerTheme from '@cloudgardener/typography-theme-cloudgardener'
 
-const typography = new Typography(nordTheme)
+const typography = new Typography(cloudGardenerTheme)
 export default typography

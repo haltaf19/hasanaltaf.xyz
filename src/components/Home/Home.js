@@ -64,9 +64,9 @@ function Home(){
     <>
       <div className={styles.home}>
         <div className={styles.title}>
-          <h1>Hello! I'm</h1>
+          <h1 className={styles.headTitle}>Hello! I'm</h1>
           <h1>
-            <Typist className="typist" onTypingDone={onComplete} stdTypingDelay={0} key={typistIndex}>
+            <Typist className={styles.typist} onTypingDone={onComplete} stdTypingDelay={0} key={typistIndex}>
               {`>`}  {typistStrings[typistIndex]}
               <Typist.Backspace count={typistStrings[typistIndex].length} delay={1500}/>
           </Typist>

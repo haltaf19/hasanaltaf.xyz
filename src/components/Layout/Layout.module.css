@@ -8,6 +8,10 @@
 
 .layout{
   padding-bottom:10rem;
+  background-color: #09182d;
+  color:white;
+  line-height: 25px;
+
 }
 
 .content{
@@ -17,6 +21,7 @@
 
 .indexFooter{
     background-color: rgba(26, 62, 104, 0.26);
+    color:white;
     background-position: center center;
     background-repeat: repeat;
 
