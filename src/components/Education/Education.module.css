@@ -21,7 +21,7 @@
     font-style: italic;
     font-weight: 700;
     font-size:2rem;
-    color: #3c9074;
+    color: #51bd99;
 }
 
 .information{
@@ -38,6 +38,7 @@
     padding-top:1rem;
     font-size:1.5rem;
     text-decoration: underline;
+    font-weight: 800;
 }
 
 .courseList{
@@ -45,7 +46,7 @@
 }
 
 .titleList{
-    font-weight:600;
+    font-weight:800;
     font-size:1.2rem;
 }
 
@@ -60,7 +61,6 @@
     }
     .information{
         display: flex;  
-        font-weight: 500;
         flex-direction: column;
     }
     .degree{

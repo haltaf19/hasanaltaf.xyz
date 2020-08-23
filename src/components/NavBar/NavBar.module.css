@@ -1,9 +1,9 @@
 .logo {
-    color: #3c9074;
+    color: #64ffda;
 }
 
 .logo:hover {
-    color: #3c9074;
+    color: #64ffda;
     transition: all 0.3s ease;
 }
 
@@ -27,7 +27,7 @@
     border: none;
     cursor: pointer;
     padding: 20px;
-    color:#58677e;
+    color:#64ffda;
   }
 
   .mobileBrand{
@@ -54,7 +54,7 @@
 
   .navbar a {
     text-transform: uppercase;
-    color: #58677e;
+    color: #a8b2d1;
     text-decoration: none;
 }
 
