@@ -30,6 +30,13 @@ function ExperienceComponent(props){
                 }
             }
         }
+        ubc: file(absolutePath: {regex: "/ubcCS.png/"}) {
+          childImageSharp {
+              fluid(maxWidth: 2000) {
+                  ...GatsbyImageSharpFluid
+              }
+          }
+      }
         bchydro: file(absolutePath: {regex: "/bchydro.jpg/"}) {
           childImageSharp {
               fluid(maxWidth: 2000) {
@@ -51,6 +58,8 @@ function ExperienceComponent(props){
             return (<Img fluid={data.TEALS.childImageSharp.fluid} fadeIn alt="Microsoft Teals logo" />)
           case "WestPeak Research Association":
             return (<Img fluid={data.westpeak.childImageSharp.fluid} fadeInalt="WestPeak Research Association logo" />)
+          case "The University of British Columbia":
+            return (<Img fluid={data.ubc.childImageSharp.fluid} fadeInalt="UBC CS Logo" />)
           default:
             return null
         }
