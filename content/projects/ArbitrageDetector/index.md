@@ -10,5 +10,5 @@ The Bellman-Ford algorithm finds the minimum path from a single source vertex to
 skills: ["Java", "Lombok", "Guice"]
 github: "https://github.com/haltaf19/Arbitrage-Detector"
 frontpage: true
-showCase: arbitragedetector.png
+showCase: arbitrage.png
 ---
