@@ -2,6 +2,19 @@
     "experience": {
         "list": [
             {
+                "title": "Undergraduate Teaching Assistant",
+                "company": "The University of British Columbia",
+                "companyUrl": "https://you.ubc.ca/ubc_programs/computer-science-vancouver-bsc/",
+                "location": "Vancouver, CA",
+                "startDate": "Sep 2020",
+                "endDate": "Present",
+                "description": [
+                    "Teaching Assistant for CPSC 221 (Basic Data Structures and Algorithms) taught in C++",
+                    "Communicating the design, analysis, and justification of fundamental data structures and algorithms"
+                ],
+                "technologies": ["Python", "Communication", "Teaching"]
+            },
+            {
                 "title": "Teaching Assistant",
                 "company": "Microsoft Teals",
                 "companyUrl": "https://www.microsoft.com/en-us/teals",
@@ -22,7 +35,8 @@
                 "startDate": "Jan 2020",
                 "endDate": "Present",
                 "description": [
-                    "Developing a static website with react based framework Gatsby, increasing loading speed by over 200%",
+                    "Redesigned the organization’s website from scratch using Gatsby.js, increasing Lighthouse performance score by 185%",
+                    "Website content can now automatically update based on changes to Excel spreadsheets and markdown files",
                     "Using Excel to perform Discounted Cashflow Analysis and Comparable Company Analysis",
                     "Publications: Equity Research Report – Sturm, Ruger & Co (NYSE: RGR)"
                 ],
@@ -64,6 +78,7 @@
         "institution": "The University of British Columbia (UBC)",
         "location": "Vancouver, BC",
         "degree": "UBC Business and Computer Science (Co-op)",
+        "ranking": 10,
         "grade": 90,
         "startDate": "Fall 2019",
         "endDate": "Spring 2023",
@@ -86,7 +101,7 @@
             "Quantitative Decision Making",
             "Financial and Managerial Accounting",
             "Statistics in Business",
-            "Management and Organization Behaviour"
+            "Management and Organizational Behaviour"
         ],
         "computerCourses":[
             "Software Construction",
