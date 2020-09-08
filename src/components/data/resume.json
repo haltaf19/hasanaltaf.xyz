@@ -98,6 +98,7 @@
             "COMM 295"
         ],
         "businessCourses":[
+            "Management Information Systems",
             "Quantitative Decision Making",
             "Financial and Managerial Accounting",
             "Statistics in Business",
@@ -106,11 +107,12 @@
         "computerCourses":[
             "Software Construction",
             "Algorithms and Data Structures",
-            "Models of Computation"
+            "Computer Systems"
         ],
         "mathCourses":[
             "Integral Calculus",
-            "Differential Calculus"
+            "Differential Calculus",
+            "Linear Algebra"
         ]
     }
 }
