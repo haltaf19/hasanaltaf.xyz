@@ -23,7 +23,7 @@
                 "endDate": "Present",
                 "description": [
                     "Teaching Assistant for the Intro to Computer Science Course for High-School students",
-                    "Communicating various programming concepts to underserved students in the Burnaby Youth Hub Community Center"
+                    "Communicating various programming concepts to students at the Burnaby Youth Hub Community Center"
                 ],
                 "technologies": ["Python", "Communication", "Teaching"]
             },
@@ -100,6 +100,7 @@
         "businessCourses":[
             "Management Information Systems",
             "Quantitative Decision Making",
+            "Logistics and Operations Management",
             "Financial and Managerial Accounting",
             "Statistics in Business",
             "Management and Organizational Behaviour"
